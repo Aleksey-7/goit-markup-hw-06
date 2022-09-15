@@ -758,6 +758,10 @@ textarea {
   margin-left: 93px;
 }
 
+.footer-field {
+  display: inline-block;
+}
+
 .footer-form-input {
   width: 358px;
   padding: 15px 16px;
@@ -872,6 +876,8 @@ textarea {
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
+
+  position: relative;
 }
 
 .form-label {
@@ -879,10 +885,6 @@ textarea {
   line-height: 1.17;
   letter-spacing: 0.01em;
   margin-bottom: 4px;
-}
-
-.form-input-field {
-  position: relative;
 }
 
 .form-input {
@@ -914,7 +916,7 @@ textarea {
 
 .form-icon {
   position: absolute;
-  top: 11px;
+  bottom: 11px;
   left: 12px;
   fill: var(--title-text-color);
   cursor: pointer;
